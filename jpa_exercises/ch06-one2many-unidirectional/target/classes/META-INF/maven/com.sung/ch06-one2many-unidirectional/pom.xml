@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sung</groupId>
+  <artifactId>ch06-one2many-unidirectional</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+      <properties>
+        <!-- 기존 XML: Java 컴파일러 버전을 명시 -->
+        <maven.compiler.source>17</maven.compiler.source> <!-- Java 17 버전으로 컴파일 -->
+        <maven.compiler.target>17</maven.compiler.target> <!-- Java 17의 바이트코드를 생성 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- 소스 파일의 인코딩을 UTF-8로 설정 -->
+
+        <!-- JPA, Hibernate 버전 -->
+        <hibernate.version>5.6.15.Final</hibernate.version> <!-- 하이버네이트 버전 지정 -->
+        <!-- 데이터베이스 버전 -->
+        <h2db.version>2.2.224</h2db.version> <!-- H2 데이터베이스의 버전 -->
+    </properties>
+
+    <dependencies>
+        <!-- 기존 XML -->
+        <!-- JPA, 하이버네이트 의존성 설정 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version> <!-- ${hibernate.version} 사용 -->
+        </dependency>
+
+        <!-- H2 데이터베이스 의존성 추가 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>${h2db.version}</version> <!-- ${h2db.version} 사용 -->
+        </dependency>
+
+        <!-- 기존 XML: MySQL Connector 의존성 추가 -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <!-- 기존 XML에는 8.3.0 버전이 명시되어 있었으나, 새 XML에서는 최신 버전 8.0.32로 변경 -->
+            <version>8.0.32</version> <!-- 새롭게 제공한 XML에서 MySQL 커넥터 버전 8.0.32로 업데이트 -->
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- 새 XML에서 추가된 빌드 설정 -->
+            <!-- 기존 XML에는 Maven 컴파일러 플러그인 설정이 없었으나, 새 XML에서는 명시적으로 추가됨 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Maven Compiler Plugin 버전 -->
+                <configuration>
+                    <source>17</source> <!-- 컴파일할 Java 소스 코드의 버전: Java 17 -->
+                    <target>17</target> <!-- 생성할 바이트코드의 버전: Java 17 -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+  
+</project>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\development\workspaces\code\jpa_exercises\ch09-altemate"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch10-1"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch90-altemate"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch09"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch07-mappedsuperclass"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch07-joined"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06-many2many-meberproductjointable"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06-many2many-memberproductjointable"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06-many2many-bidrectional"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06-one2many-bidirectional"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06-one2many-unidirectional"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06-one2one-bidirectional"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch06"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch05-cascade-orphan"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch05-unidirectional_1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.sung"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ch09-altemate"/>
+			<item value="ch10-1"/>
+			<item value="ch90-altemate"/>
+			<item value="ch09"/>
+			<item value="ch07-mappedsuperclass"/>
+			<item value="ch07-joined"/>
+			<item value="ch06-many2many-meberproductjointable"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\development\workspaces\code\jpa_exercises\ch10-1"/>
+			<item value="C:\development\workspaces\code\jpa_exercises\ch09"/>
+			<item value="C:\development\workspaces\code\sping_legacy\tobyspring6\vol1\ch7\7.6.2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
